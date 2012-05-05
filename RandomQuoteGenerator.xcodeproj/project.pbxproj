@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12F8C6C15554774009260A2 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12F8C6B15554774009260A2 /* Automator.framework */; };
+		E12F8C6E15554774009260A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12F8C6D15554774009260A2 /* Cocoa.framework */; };
+		E12F8C7815554774009260A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E12F8C7615554774009260A2 /* InfoPlist.strings */; };
+		E12F8C7B15554774009260A2 /* RandomQuoteGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E12F8C7A15554774009260A2 /* RandomQuoteGenerator.m */; };
+		E12F8C7E15554775009260A2 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12F8C7C15554775009260A2 /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12F8C6815554774009260A2 /* RandomQuoteGenerator.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomQuoteGenerator.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12F8C6B15554774009260A2 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		E12F8C6D15554774009260A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E12F8C7015554774009260A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E12F8C7115554774009260A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E12F8C7215554774009260A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E12F8C7515554774009260A2 /* RandomQuoteGenerator-Info.plist */ = {isa = PBXFileReference; path = "RandomQuoteGenerator-Info.plist"; sourceTree = "<group>"; };
+		E12F8C7715554774009260A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E12F8C7915554774009260A2 /* RandomQuoteGenerator.h */ = {isa = PBXFileReference; path = RandomQuoteGenerator.h; sourceTree = "<group>"; };
+		E12F8C7A15554774009260A2 /* RandomQuoteGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomQuoteGenerator.m; sourceTree = "<group>"; };
+		E12F8C7D15554775009260A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		E12F8C7F15554775009260A2 /* RandomQuoteGenerator-Prefix.pch */ = {isa = PBXFileReference; path = "RandomQuoteGenerator-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12F8C6415554774009260A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F8C6C15554774009260A2 /* Automator.framework in Frameworks */,
+				E12F8C6E15554774009260A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12F8C5C15554774009260A2 = {
+			isa = PBXGroup;
+			children = (
+				E12F8C7315554774009260A2 /* RandomQuoteGenerator */,
+				E12F8C6A15554774009260A2 /* Frameworks */,
+				E12F8C6915554774009260A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12F8C6915554774009260A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12F8C6815554774009260A2 /* RandomQuoteGenerator.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12F8C6A15554774009260A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12F8C6B15554774009260A2 /* Automator.framework */,
+				E12F8C6D15554774009260A2 /* Cocoa.framework */,
+				E12F8C6F15554774009260A2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12F8C6F15554774009260A2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12F8C7015554774009260A2 /* AppKit.framework */,
+				E12F8C7115554774009260A2 /* CoreData.framework */,
+				E12F8C7215554774009260A2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E12F8C7315554774009260A2 /* RandomQuoteGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				E12F8C7915554774009260A2 /* RandomQuoteGenerator.h */,
+				E12F8C7A15554774009260A2 /* RandomQuoteGenerator.m */,
+				E12F8C7C15554775009260A2 /* main.xib */,
+				E12F8C7415554774009260A2 /* Supporting Files */,
+			);
+			path = RandomQuoteGenerator;
+			sourceTree = "<group>";
+		};
+		E12F8C7415554774009260A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12F8C7515554774009260A2 /* RandomQuoteGenerator-Info.plist */,
+				E12F8C7615554774009260A2 /* InfoPlist.strings */,
+				E12F8C7F15554775009260A2 /* RandomQuoteGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12F8C6715554774009260A2 /* RandomQuoteGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12F8C8215554775009260A2 /* Build configuration list for PBXNativeTarget "RandomQuoteGenerator" */;
+			buildPhases = (
+				E12F8C6315554774009260A2 /* Sources */,
+				E12F8C6415554774009260A2 /* Frameworks */,
+				E12F8C6515554774009260A2 /* Resources */,
+				E12F8C6615554774009260A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomQuoteGenerator;
+			productName = RandomQuoteGenerator;
+			productReference = E12F8C6815554774009260A2 /* RandomQuoteGenerator.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12F8C5E15554774009260A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ASE Consulting Pty Ltd";
+			};
+			buildConfigurationList = E12F8C6115554774009260A2 /* Build configuration list for PBXProject "RandomQuoteGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E12F8C5C15554774009260A2;
+			productRefGroup = E12F8C6915554774009260A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12F8C6715554774009260A2 /* RandomQuoteGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12F8C6515554774009260A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F8C7815554774009260A2 /* InfoPlist.strings in Resources */,
+				E12F8C7E15554775009260A2 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E12F8C6615554774009260A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12F8C6315554774009260A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F8C7B15554774009260A2 /* RandomQuoteGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E12F8C7615554774009260A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12F8C7715554774009260A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E12F8C7C15554775009260A2 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12F8C7D15554775009260A2 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12F8C8015554775009260A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E12F8C8115554775009260A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E12F8C8315554775009260A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomQuoteGenerator/RandomQuoteGenerator-Prefix.pch";
+				INFOPLIST_FILE = "RandomQuoteGenerator/RandomQuoteGenerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		E12F8C8415554775009260A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomQuoteGenerator/RandomQuoteGenerator-Prefix.pch";
+				INFOPLIST_FILE = "RandomQuoteGenerator/RandomQuoteGenerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12F8C6115554774009260A2 /* Build configuration list for PBXProject "RandomQuoteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12F8C8015554775009260A2 /* Debug */,
+				E12F8C8115554775009260A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12F8C8215554775009260A2 /* Build configuration list for PBXNativeTarget "RandomQuoteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12F8C8315554775009260A2 /* Debug */,
+				E12F8C8415554775009260A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12F8C5E15554774009260A2 /* Project object */;
+}
